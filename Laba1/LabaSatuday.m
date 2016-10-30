@@ -34,7 +34,7 @@ x = fread( f, 'double') ;
 fclose(f) ;
 k=length(x);
 Y=zeros(length(x),1);
-
+%sound(x,32000);
 for i=length(hn)+1:length(x)
     
 for j=0:length(hn)-1
