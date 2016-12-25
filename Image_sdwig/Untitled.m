@@ -1,7 +1,8 @@
 clear all;
 x=imshow('warp.jpg');
 w = getimage;
-q=0; e=0; 
+q=0; 
+e=0; 
 %z=zeros(250,1000,3);
 for i=1:1:250
     for j=1:1:1000 
